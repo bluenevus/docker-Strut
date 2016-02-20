@@ -1,7 +1,7 @@
 FROM node:4.1.0-slim
 ENV REFRESHED_AT 2015_02_20
 
-RUN wget https://github.com/tantaman/Strut/archive/master.tar.gz -O ./Strut.tar.gz \
+RUN wget https://github.com/thielCole/Strut/archive/master.tar.gz -O ./Strut.tar.gz \
  && tar zxvf ./Strut.tar.gz \
  && mv Strut-master Strut \
  && rm ./Strut.tar.gz
