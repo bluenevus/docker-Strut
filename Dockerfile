@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:4.3.1-slim
 ENV REFRESHED_AT 2015_02_20
 
 RUN wget https://github.com/thielCole/Strut/archive/master.tar.gz -O ./Strut.tar.gz \
