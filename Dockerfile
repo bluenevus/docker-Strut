@@ -15,5 +15,5 @@ RUN npm install -g grunt-cli \
  && npm install grunt-mocha --save-dev \
  && npm install
 
-EXPOSE 9001
+EXPOSE 9000
 CMD ["grunt", "server"]
