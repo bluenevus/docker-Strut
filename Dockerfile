@@ -12,10 +12,8 @@ RUN npm install -g grunt-cli \
  # avoid error:
  #   No compatible version found: phantomjs@'>=1.8.1 <1.9.0'
  # see https://github.com/tantaman/Strut/issues/316
- 
- apt uninstall npm \
- curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash \
- nvm install 8.0 --latest-npm \
+ && npm install phantomjs-prebuilt@2.1.13 --ignore-scripts \\
+
  && npm install grunt-mocha --save-dev \
  && npm install
 
