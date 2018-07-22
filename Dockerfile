@@ -12,7 +12,11 @@ RUN npm install -g grunt-cli \
  # avoid error:
  #   No compatible version found: phantomjs@'>=1.8.1 <1.9.0'
  # see https://github.com/tantaman/Strut/issues/316
- && npm install grunt-mocha --save-dev \
+ # && npm install grunt-mocha --save-dev \
+ sudo apt uninstall npm \
+ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash \
+ nvm install 8.0 --latest-npm \
+ 
  && npm install
 
 EXPOSE 9000
