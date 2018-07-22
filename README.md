@@ -4,7 +4,7 @@ Dockerfile for [Strut](https://github.com/MohannadNaj/Strut)
 
 ## Usage
 
-    docker run -p 80:9001 bluenevus/docker-strut:latest
+    docker run -p 9001:9000 bluenevus/docker-strut:latest
 
 
 
