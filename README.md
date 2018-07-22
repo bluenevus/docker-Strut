@@ -1,14 +1,11 @@
 ## Introduction
 
-Dockerfile for [Strut](https://github.com/tantaman/Strut)
-
-The development seem to be diverged between tantaman and thielCole. Therefore two different latest tags are provided.
+Dockerfile for [Strut](https://github.com/MohannadNaj/Strut)
 
 ## Usage
 
-    docker run -p 80:9000 cguenther/strut:latest-tantaman
-or
-    docker run -p 80:9000 cguenther/strut:latest-thielCole
+    docker run -p 80:9001 bluenevus/docker-strut:latest
+
 
 
 ## Requirement
